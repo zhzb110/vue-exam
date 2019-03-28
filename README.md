@@ -23,12 +23,12 @@
 
 > 效果图
 
-![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/img/1.png "图片") 
+![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/1.png "图片") 
 
-![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/img/2.png "图片")  
+![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/2.png "图片")  
 
-![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/img/3.png "图片")  
+![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/3.png "图片")  
 
-![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/img/4.png "图片")  
+![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/4.png "图片")  
 
-![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/img/5.png "图片")  
+![github](https://zhangjunpingping.github.io/vue-exam/exam-user/static/5.png "图片")  
