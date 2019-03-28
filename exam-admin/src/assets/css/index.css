@@ -1,0 +1,125 @@
+ * { margin: 0; padding: 0;list-style:none;font-family:PingFang SC}
+::-webkit-scrollbar {  width: 10px;  height: 10px;  background:#f5f5f5; }
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); border-radius: 10px;  background:#f5f5f5; }
+::-webkit-scrollbar-thumb {  border-radius: 10px;  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);  background-color:#0081e3; }
+html,body,#app,.wrapper { width: 100%;height: 100%;}
+body {font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;font-size: 14px;color: #333;}
+a {text-decoration: none}
+input, textarea{outline:none}
+.content-box {position: absolute;left: 250px;right: 0;top: 60px;bottom: 0;overflow-y: auto;-webkit-transition: left .3s ease-in-out;transition: left .3s ease-in-out;}
+.header {background: rgba(81, 159, 241)}
+.content-table{margin-top:20px;}
+/*字号*/
+.font-size20{font-size: 20px;}
+.font-size20{font-size: 20px;}
+.font-size18{font-size: 18px;}
+.font-size16{font-size: 16px;}
+.font-size12{font-size: 12px;}
+.font-size13{font-size: 13px;}
+.font-size26{font-size: 26px}
+.text-right{text-align:right;}
+.text-left{text-align:left;}
+.text-center{text-align: center;}
+/*字体颜色*/
+.color-3a{color: #3a8ee6;}
+.color-33{color: #333;}
+.color-66{color: #666 !important;}
+.color-999{color: #999;}
+.color-99{color: #999;}
+.color-red{color: red;}
+.color-c0{color:#c0c4cc;}
+.color-ff{color: #fff !important;}
+/*底边*/
+.border-b-e5{border-bottom: 1px solid #e5e5e5;}
+.border-b-3a{border-bottom: 1px solid #3a8ee6;}
+/*margin*/
+.margin-b15{margin-bottom: 15px !important; }
+.margin-b10{margin-bottom: 10px !important; }
+.margin-b5{margin-bottom: 5px !important; }
+.margin-b0{ margin-bottom: 0px !important; }
+.margin-t15{margin-top: 15px !important; }
+.margin-t10{margin-top: 10px;}
+.margin-t5{margin-top: 5px;}
+.margin-l5{ margin-left:5px; }
+.margin-r5{ margin-right:5px; }
+.margin-l10{margin-left:10px;}
+.margin-l50{ margin-left: 50px }
+.padding-t15{padding-top: 15px}
+.text-right-b10{text-align: right;padding-bottom: 10px}
+.clear:after{content:"";display:block;clear:both}
+.top-form{margin-bottom: 25px;border-bottom: 1px dashed #e2dfdf;}
+.top-form:after{display:block;content:"";clear:both}
+.top-form .formBtns{ position:relative;float:right;margin-bottom:10px}
+.distpicker-address-wrapper select{padding: 5px 10px !important;height: 32px !important;font-size: 14px !important;outline: none}
+.distpicker-address-wrapper select:focus{border-color: #409eff !important;}
+/* 修改element的样式,内容中的input */
+/*.el-menu-item.is-active, .el-pagination.is-background, .el-pagination.is-background .el-pager li:not(.disabled):hover{
+  color:#0081e3
+}
+.el-button--primary, .el-pagination.is-background .el-pager li:not(.disabled).active{
+  background-color:#0081e3;border-color:#0081e3;color:#fff
+}*/
+.content .el-select{width:100%;}
+.el-scrollbar__thumb{ background-color: hsla(220,4%,58%,.5);}
+/*element表格样式*/
+.el-table--small td, .el-table--small th {padding: 4px 0;}
+.el-table-btn{padding: 5px 10px;}
+/*elemnet弹出框样式*/
+.el-dialog__header {padding: 10px 20px 10px;border-bottom: 1px solid #eee;background-color: #F8F8F8;}
+.el-dialog__headerbtn{top:14px;}
+.el-dialog__title {line-height: 24px; font-size: 16px; color: #333;}
+/*element菜单样式*/
+.sidebar .el-submenu__title i {color: #fff !important;}
+.sidebar .el-menu-item.is-active {background: rgba(0, 0, 0, 0.1) !important;}
+.sidebar .el-menu-item:hover, .el-menu-item:focus{background: rgba(0, 0, 0, 0.1) !important;}
+.el-submenu__title:hover{background: rgba(0, 0, 0, 0.1) !important;}
+.el-input__prefix {left: 8px;}
+.el-table th, .el-table thead.is-group th{color:#333;font-weight:bold;background-color:#f9f9f9}
+.el-dialog .el-pagination{float:none;text-align:center;margin-bottom:0}
+.el-switch__label{color:#666}
+.courseTitle{color:#409eff;padding-bottom:5px;border-bottom:1px solid #409eff;margin-bottom:5px;font-size:18px}
+.el-input input[type="number"]{padding-right:0}
+.el-textarea textarea{resize:none}
+.hidden{display:none}
+body .el-table th.gutter{display: table-cell!important;}
+.aside-menu-item{padding-left:60px !important;}
+.red-star label:before {content: '*';color: #f56c6c;margin-right: 4px;}
+.clear-red-star label:before {content: '' !important;}
+.end-time>label{ width: 50px !important; text-align: center; padding-right: 0px}
+.end-time>div{ margin-left: 50px !important; }
+.float-r {float: right;}
+.float-l {float: left;}
+/*修改记录的样式*/
+.modifty-record{ overflow: hidden;padding:8px 10px;border-bottom:1px dashed #e5e5e5;margin-bottom:5px }
+.modifty-record>span{ width: 30px; float: left;height: 30px;border:1px solid #9b9b9b;text-align: center;line-height: 30px;border-radius: 15px;color:#9b9b9b;}
+.modifty-record>p{ margin-left: 45px;padding-bottom:5px; }
+.modifty-record-name{ color:#409eff; }
+.modifty-record-time{ margin-left: 15px; display: inline-block;color:#9b9b9b;font-size: 13px }
+.modifty-record-title{ border-top:1px solid #e5e5e5;padding-top:10px;margin-top: 15px }
+/*编译器宽度*/
+.edui-notadd{ width:100%; }
+.edui-editor{ width:100% !important; }
+/*上传图片*/
+.upload-img-none>ul{ display: none }
+.address-select-width{ float:left;width: 130px !important;margin-right: 5px; }
+.width120{ width: 120px !important }
+.width200{ width: 210px !important }
+.cursor-p{cursor: pointer;}
+/*editor-div-show*/
+.editor-div-show{ height: 35px; overflow: auto; padding: 5px 5px;background: #fff;border: 1px solid #e5e5e5;margin-button:10px;}
+.spot{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.spot>p,.spot>div{text-overflow: ellipsis;overflow: hidden;}
+.el-dialog .el-textarea>.el-textarea__inner{ max-height: 200px }
+.el-loading-mask.is-fullscreen{background: rgba(0,0,0,.2)}
+.display-none{display: none}
+.el-form-item__content>label{word-break: break-all;}
+.el-select-dropdown{ max-width:200px}
+.option-width200{width: 200px;display: inline-block;}
+.option-width180{width: 180px;display: inline-block;}
+.option-width100{width: 160px;display: inline-block;}
+.option-width150{width: 150px;display: inline-block;}
+.option-width50{width: 90px;display: inline-block;}
+.editQue .el-loading-mask{ opacity: 0.1}
+.el-message-box__content{max-height: 450px;overflow-y: auto;}
+
+
